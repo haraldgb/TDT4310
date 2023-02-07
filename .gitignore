@@ -3,3 +3,4 @@
 labs/solutions
 *node_modules
 *.ipynb_checkpoints
+.idea
