@@ -33,34 +33,24 @@ For the exercises, keep your answers short. These questions are meant to guide y
 
 Here's a brief overview of the labs
 
-**(topics and dates may change throughout the semester based on feedback and other things)**
-
-Updates:
-- [January 27]: All deadlines have been extended by 3 days to reflect the extension of Lab 1.
-
 | Lab | Link | Published | Deadline | Topic | Smart keyboard features | Libraries | Chapters |
 | - | - | - | - | - | - | - | - |
 | 1 | [Lab1](exercises/LAB_1.pdf) | Jan. 10 | Jan. 30 | Tokenization, introduction to word vectors and language modeling | Next-word prediction | NLTK | 2, 3 |
 | 2 | [Lab2](exercises/LAB_2.pdf)| Jan. 27 | Feb. 13 | Part-of-speech tagging, stemming/lemmatization, TF-IDF | Utilize part-of-speech for predictions | NLTK, spaCy | 4, 5, 6 |
-| 3 | | Feb. 10 | Feb. 27 | Wordnet and SentiWordNet, dependency parsing, POS chunking | Sentiment-based and multi-word predictions | spaCy, Scikit-learn | 7, 8 |
-| 4 | | Feb. 24 | Mar. 13 | Unsupervised topic modeling and named entities | Topic-aware predictions | Scikit-learn, Gensim | 9, 10 |
+| 3 | [Lab3](exercises/LAB_3.pdf)| Feb. 10 | Feb. 27 | Wordnet and SentiWordNet, dependency parsing, POS chunking | Sentiment-based and multi-word predictions | spaCy, Scikit-learn | 7, 8 |
+| 4 | [Lab4](exercises/LAB_4.pdf)| Feb. 24 | Mar. 13 | Unsupervised topic modeling and named entities | - |Gensim | 9, 10, 11 |
 
-> Note that you can find some useful tips from last year's course here: https://github.com/tollefj/TDT4310-2022
+Updates:
+- [January 27]: All deadlines have been extended by 3 days to reflect the extension of Lab 1.
+
 
 ## `The main theme: building a smart keyboard 💻`
 Throughout the labs, alongside a few questions and simple tasks, you will be implementing a **smart keyboard**, mostly from scratch. I have prepared a full-stack application, where your task is to build a system that suggests the next word(s).
 The frontend application (which you do not need to modify) is built using [**React**](https://reactjs.org/).
 
 **The backend, which you will be working with**, is built using [**Flask**](https://palletsprojects.com/p/flask/). This course assumes fairly good knowledge of programming in general, and you are expected to be able to debug potential issues with the system yourself. I will, of course, do my best to aid you in this process. A screenshot of the application is shown below.
-
 <p align="center">
     <img src="assets/electronapp.png" width=600>
-</p>
-
-The frontend application (running on your PC) is also set up to be exposed on your local network, allowing access from any other device connected to it (either if you're lacking screens, or just for fun!). Below is an example with it accessed from a phone:
-
-<p align="center">
-    <img src="assets/lab_phone.png" width=350>
 </p>
 
 ## `Setup 🛠`

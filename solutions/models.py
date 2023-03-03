@@ -3,7 +3,7 @@ import nltk
 
 class NgramModel:
     def __init__(self, measures, finder, corpus, n_gram) -> None:
-        self.model = finder.from_words(corpus).score_ngrams(measures.student_t)
+        self.model = finder.from_words(corpus).score_ngrams(measures.raw_freq)
         self.n_gram = n_gram
         
     def compare_ngram(self, this: Optional[Tuple[str]], that: Tuple[str]) -> bool:
