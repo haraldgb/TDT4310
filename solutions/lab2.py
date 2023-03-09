@@ -3,8 +3,8 @@ from collections import Counter
 import nltk
 import spacy
 from lab_utils import LabPredictor
-from solutions.models import TrigramModel
-from solutions.util import filter_word, preprocess
+from models import TrigramModel
+from util import filter_word, preprocess
 
 
 class Lab2(LabPredictor):

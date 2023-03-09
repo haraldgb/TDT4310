@@ -1,7 +1,7 @@
 import nltk
 from lab_utils import LabPredictor
-from solutions.models import BigramModel, TrigramModel
-from solutions.util import filter_word, preprocess
+from models import BigramModel, TrigramModel
+from util import filter_word, preprocess
 
 class Lab1(LabPredictor):
     def __init__(self):
